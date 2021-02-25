@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: Verdana, "Geneva", Tahoma, sans-serif;
 }
@@ -18,4 +24,20 @@ table {
   right: 10vw;
   width: 80vw;
   height: 50vh;
+}
+
+td {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 10rem;
+}
+
+tr:nth-child(1) :nth-child(n + 2):nth-child(-n + 17),
+tr:nth-child(2) :nth-child(n + 3):nth-child(-n + 12),
+tr:nth-child(3) :nth-child(n + 3):nth-child(-n + 12),
+tr:nth-child(8) :first-child,
+tr:nth-child(9) :first-child,
+tr:nth-child(8) :nth-child(n + 16):nth-child(-n + 18),
+tr:nth-child(9) :nth-child(n + 16):nth-child(-n + 18) {
+  border: none;
 }
