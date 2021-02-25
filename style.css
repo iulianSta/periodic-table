@@ -1,0 +1,21 @@
+body {
+  font-family: Verdana, "Geneva", Tahoma, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: cadetblue;
+  position: relative;
+  top: 10vh;
+}
+
+table {
+  text-align: center;
+  text-size-adjust: 3rem;
+  position: relative;
+  top: 20vh;
+  left: 10vw;
+  right: 10vw;
+  width: 80vw;
+  height: 50vh;
+}
