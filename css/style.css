@@ -6,13 +6,20 @@
 
 body {
   font-family: Verdana, "Geneva", Tahoma, sans-serif;
+  background-image: url(../img/chemical-reaction-AI-750x450.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 h1 {
   text-align: center;
-  color: teal;
+  font-size: 3rem;
+  color: lightskyblue;
   position: relative;
   top: 10vh;
+  transition: 0.5s;
 }
 
 table {
@@ -30,6 +37,7 @@ td {
   border: 1px solid black;
   border-radius: 5px;
   width: 10rem;
+  transition: 0.5s;
 }
 
 tr:nth-child(1) :nth-child(n + 2):nth-child(-n + 17),
@@ -119,4 +127,19 @@ tr:nth-child(8) :nth-child(n + 2):nth-child(-n + 15) {
 tr:nth-child(7) :nth-child(3),
 tr:nth-child(9) :nth-child(n + 2):nth-child(-n + 15) {
   background-color: teal;
+}
+
+h1:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+  opacity: 0.8;
+  z-index: 1;
+  color: lightseagreen;
+}
+
+td:hover {
+  transform: scale(2);
+  cursor: pointer;
+  opacity: 0.8;
+  z-index: 1;
 }
