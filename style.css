@@ -41,3 +41,20 @@ tr:nth-child(8) :nth-child(n + 16):nth-child(-n + 18),
 tr:nth-child(9) :nth-child(n + 16):nth-child(-n + 18) {
   border: none;
 }
+
+tr:nth-child(1) :first-child,
+tr:nth-child(2) :nth-child(n + 14):nth-child(-n + 16),
+tr:nth-child(3) :nth-child(n + 15):nth-child(-n + 16),
+tr:nth-child(4) :nth-child(16) {
+  background-color: yellow;
+}
+
+tr:nth-child(2) :first-child,
+tr:nth-child(3) :first-child,
+tr:nth-child(4) :first-child,
+tr:nth-child(5) :first-child,
+tr:nth-child(6) :first-child,
+tr:nth-child(7) :first-child,
+tr:nth-child(7) :nth-child(17) {
+  background-color: steelblue;
+}
