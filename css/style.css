@@ -1,9 +1,10 @@
+/* All elements style */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
+/* Body style */
 body {
   font-family: Verdana, "Geneva", Tahoma, sans-serif;
   background-image: url(../img/chemical-reaction-AI-750x450.jpg);
@@ -12,16 +13,15 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
+/* H1 style */
 h1 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 4rem;
   color: lightskyblue;
   position: relative;
   top: 10vh;
-  transition: 0.5s;
 }
-
+/* Table style */
 table {
   text-align: center;
   text-size-adjust: 3rem;
@@ -32,14 +32,14 @@ table {
   width: 80vw;
   height: 50vh;
 }
-
+/* Table data style */
 td {
   border: 1px solid black;
   border-radius: 5px;
   width: 10rem;
   transition: 0.5s;
 }
-
+/* Empty table data style */
 tr:nth-child(1) :nth-child(n + 2):nth-child(-n + 17),
 tr:nth-child(2) :nth-child(n + 3):nth-child(-n + 12),
 tr:nth-child(3) :nth-child(n + 3):nth-child(-n + 12),
@@ -48,15 +48,16 @@ tr:nth-child(9) :first-child,
 tr:nth-child(8) :nth-child(n + 16):nth-child(-n + 18),
 tr:nth-child(9) :nth-child(n + 16):nth-child(-n + 18) {
   border: none;
+  content: none;
 }
-
+/* Table data yellow style */
 tr:nth-child(1) :first-child,
 tr:nth-child(2) :nth-child(n + 14):nth-child(-n + 16),
 tr:nth-child(3) :nth-child(n + 15):nth-child(-n + 16),
 tr:nth-child(4) :nth-child(16) {
   background-color: yellow;
 }
-
+/* Table data steelblue style */
 tr:nth-child(2) :first-child,
 tr:nth-child(3) :first-child,
 tr:nth-child(4) :first-child,
@@ -66,7 +67,7 @@ tr:nth-child(7) :first-child,
 tr:nth-child(7) :nth-child(17) {
   background-color: steelblue;
 }
-
+/* Table data tan style */
 tr:nth-child(2) :nth-child(2),
 tr:nth-child(3) :nth-child(2),
 tr:nth-child(4) :nth-child(2),
@@ -76,7 +77,7 @@ tr:nth-child(7) :nth-child(2),
 tr:nth-child(7) :nth-child(18) {
   background-color: tan;
 }
-
+/* Table data peru style */
 tr:nth-child(2) :nth-child(17),
 tr:nth-child(3) :nth-child(17),
 tr:nth-child(4) :nth-child(17),
@@ -85,7 +86,7 @@ tr:nth-child(6) :nth-child(17),
 tr:nth-child(7) :nth-child(15) {
   background-color: peru;
 }
-
+/* Table data fuchsia style */
 tr:nth-child(1) :last-child,
 tr:nth-child(2) :last-child,
 tr:nth-child(3) :last-child,
@@ -95,7 +96,7 @@ tr:nth-child(6) :last-child,
 tr:nth-child(7) :nth-child(16) {
   background-color: fuchsia;
 }
-
+/* Table data lightsalmon style */
 tr:nth-child(2) :nth-child(13),
 tr:nth-child(3) :nth-child(14),
 tr:nth-child(6) :nth-child(16),
@@ -103,7 +104,7 @@ tr:nth-child(4) :nth-child(n + 14):nth-child(-n + 15),
 tr:nth-child(5) :nth-child(n + 15):nth-child(-n + 16) {
   background-color: lightsalmon;
 }
-
+/* Table data lightpink style */
 tr:nth-child(3) :nth-child(13),
 tr:nth-child(4) :nth-child(13),
 tr:nth-child(5) :nth-child(n + 13):nth-child(-n + 14),
@@ -111,32 +112,30 @@ tr:nth-child(6) :nth-child(n + 13):nth-child(-n + 15),
 tr:nth-child(7) :nth-child(n + 13):nth-child(-n + 14) {
   background-color: lightpink;
 }
-
+/* Table data green style */
 tr:nth-child(4) :nth-child(n + 3):nth-child(-n + 12),
 tr:nth-child(5) :nth-child(n + 3):nth-child(-n + 12),
 tr:nth-child(6) :nth-child(n + 4):nth-child(-n + 12),
 tr:nth-child(7) :nth-child(n + 4):nth-child(-n + 12) {
   background-color: green;
 }
-
+/* Table data lightskyblue style */
 tr:nth-child(6) :nth-child(3),
 tr:nth-child(8) :nth-child(n + 2):nth-child(-n + 15) {
   background-color: lightskyblue;
 }
-
+/* Table data teal style */
 tr:nth-child(7) :nth-child(3),
 tr:nth-child(9) :nth-child(n + 2):nth-child(-n + 15) {
   background-color: teal;
 }
-
+/* H1 :hover style */
 h1:hover {
-  transform: scale(1.5);
   cursor: pointer;
   opacity: 0.8;
-  z-index: 1;
   color: lightseagreen;
 }
-
+/* Table data :hover style */
 td:hover {
   transform: scale(2);
   cursor: pointer;
